@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLOOD</title>
+    <!-- 파비콘 -->
+    <link href="img/fav.png" type="image/x-icon" rel="shortcut icon" >
+    <!-- 외부 css연결 -->
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- 외부 js파일 연결 -->
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="box">
+                <!-- 로고 -->
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="로고">
+                    </a>
+                </div>
+                <!-- 내비게이션(2차원메뉴) -->
+                <nav>
+                    <ul>
+                        <li>
+                            <!-- 주메뉴 -->
+                            <a href="#">STOKELIST</a>
+                        </li>
+                        <li>
+                            <a href="#">ONLINE SHOP</a>
+                            <ul class="sub">
+                                <li><a href="#">All</a></li>
+                                <li><a href="#">TOP</a></li>
+                                <li><a href="#">BOTTOM</a></li>
+                                <li><a href="#">HEADWEAR</a></li>
+                                <li><a href="#">ACC</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">LOOKBOOK</a>
+                            <ul class="sub">
+                                <li><a href="#">18-19 ‘FALL/WINTER’</a></li>
+                                <li><a href="#">18 SUMMER 'AURA-18'</a></li>
+                                <li><a href="#">18 SPRING '洪水'</a></li>
+                                <li><a href="#">18 SPRING TEASER '洪水'</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">COMMUNITY</a>
+                            <ul class="sub">
+                                <li><a href="#">NOTICE</a></li>
+                                <li><a href="#">Q&A</a></li> 
+                            </ul>        
+                        </li>        
+                            
+                        
+                        <li>
+                            <a href="#">MY PAGE</a>
+                            <ul class="sub">
+                                <li><a href="#">LOGIN</a></li>
+                                <li><a href="#">JOIN</a></li>
+                                <li><a href="#">ORDER</a></li>
+                                <li><a href="#">CART</a></li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- 서브메뉴 배경은 .box의 형제객체로 코딩함
+            css에서는 부모나 보모의 형제를 제어하는 선택자가
+            없어서 제이쿼리로 제어해야 함 -->
+            <div class="sub_bg"></div>
+        </header>
+        <section class="s1">
+            <!-- 메인 비주얼의 이미지 영역(3개) -->
+            <div class="photo">
+                <ul>
+                    <li class="main1"></li>
+                    <li class="main2"></li>
+                    <li class="main3"></li>
+                </ul>
+            </div>
+            <!-- 화면 왼쪽의 세로 막대 -->
+            <div class="bar">
+                <h3>FLOOD SHOWROOM</h3>
+            </div>
+            <!-- 설명과 번호와 play, pause버튼 영역 -->
+            <div class="des_box">
+                <div class="des">
+                    <ul>
+                        <li>
+                            <h1>FLOOD</h1>
+                            <p>FLOOD(플러드)는 서브컬쳐의 흐름, 변화하는 <br>
+                                 시대상을 홍수에 비유하여 만들어진 브랜드입니다.</p>
+                            <a href="#">VIEW MORE</a>    
+                        </li>
+                        <li>
+                            <h1>FLOOD</h1>
+                            <p>W컨셉샵 FLOOD 입점!<br>
+                                입점샵에서 쿠폰과 할인등 다양한 해택을 만나보세요</p>
+                                
+                            <a href="#">VIEW MORE</a> 
+                        </li>
+                        <li>
+                            <h1>FLOOD</h1>
+                            <p>FLOOD의 모든 상품은 무료배송입니다. <br>
+                                (일부 품목 제외, 일부 지역 제외)</p>
+                            <a href="#">VIEW MORE</a> 
+                        </li>
+                    </ul>
+                </div>
+                <div class="number">
+                    <div class="num">
+                        <ul>
+                            <li><a href="#" class="active">01</a></li>
+                            <li><a href="#">02</a></li>
+                            <li><a href="#">03</a></li>
+                        </ul>
+                    </div>
+                    <div class="btn">
+                        <hr>  <!--짧은 선-->
+                        <a href="#"></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scroll">
+                <p>SCROLL</p>
+                <div class="scroll_btn">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </section>
+        <section class="s2">
+            <div class="box">
+                <a href="#"><img src="img/newarrivals.png" alt="이번시즌 신상품들"></a>
+                <!-- <h1>제목입니다</h1> -->
+                <!-- <h4>설명입니다 <span>강조입니다</span></h4> -->
+                <!-- <div class="sample"> -->
+                    <!-- <ul> -->
+                        <!-- <li><a href="#"><div class=img><img src="img/logo.png" alt="이미지"></div> -->
+                        <!-- <p>이미지 아래 내용</p></a></li> -->
+                    <!-- </ul> -->
+                <!-- </div> -->
+                <!-- <div class="more_btn"> -->
+                    <!-- <a href="#">VIEW MORE</a> -->
+                <!-- </div> -->
+            </div>
+            
+            
+        </section>
+        <section class="s3">
+            <div class="area">
+                <div class="product1">
+                 <h1>
+                    <span>season</span><br>
+                    LOOKBOOK
+                 </h1>
+                 <div class="product_title">
+                     <div class="product_des">
+                        <ul>
+                            <li class="d1">
+                                <h3><span>01</span></h3><p>18 SPRING 'FLOOD'</p><a href="#"><img src="img/plusbox.png" alt="더하기"></a>
+                            </li>
+                            <li class="d2">
+                                <h3><span>02</span></h3><p>18 SUMMER 'AURA-18'</p><a href="#"><img src="img/plusbox.png" alt="더하기"></a>
+                            </li>
+                            <li class="d3">
+                                <h3><span>03</span></h3><p>18-19 FW 'TECHNO & HOUSE'</p><a href="#"><img src="img/plusbox.png" alt="더하기"></a>
+                            </li>
+                        </ul>
+                     </div>
+                      <div class="product_list">
+                          <ul>
+                             <li class="t1 active"><a href="#">18 SPRING 'FLOOD'</a></li>
+                                <li class="t2"><a href="#">18 SUMMER 'AURA-18'</a></li>
+                                <li class="t3"><a href="#">18-19 FW 'TECHNO & HOUSE'</a></li>
+                         </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="product2">
+                    <ul>
+                     <li class="img1"><img src="img/main3-1.png" alt="봄시즌"></li>
+                     <li class="img2"><img src="img/main3-2.png" alt="여름시즌"></li>
+                     <li class="img3"><img src="img/main3-3.png" alt="가을겨울시즌"></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="s4">
+            <div class="area">
+                <div class="new_bg">
+                
+                </div>
+                <div class="new_des">
+                    <div class="new_title">
+                        <h1><span>STORE</span><br>ALL</h1><hr>
+                    </div>
+                    <h3>플러드 시즌 전체 상품 보기</h3>
+                    <a href="#"><img src="img/plusbox_b.png" alt="더하기"></a>
+                    
+                </div>
+                <div class="new_list">   
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="#">
+                         <!-- 이미지 -->
+                            <div class="new_img">
+                                <img src="img/main4-1.png" alt="레오파드">
+                            </div>
+                            <p>FUR JACKET / LEOPARD<br>₩309,000</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                        <!-- 이미지 -->
+                            <div class="new_img">
+                                <img src="img/main4-2.png" alt="타탄체크자켓">
+                            </div>
+                            <p>TARTAN CHECK FLEECE JACKET / BLUE GREEN<br>
+                            ₩149,000</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                        <!-- 이미지 -->
+                            <div class="new_img">
+                                <img src="img/main4-3.png" alt="검은퍼자켓">
+                            </div>
+                            <p>FUR JACKET / BLACK<br>
+                            ₩309,000</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                        <!-- 이미지 -->
+                            <div class="new_img">
+                                <img src="img/main4-4.png" alt="알약후드티">
+                            </div>
+                            <p>FPILLS IN ZIPLOC HOODIE / BLACK<br>
+                                ₩89,000 </p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                        <!-- 이미지 -->
+                            <div class="new_img">
+                                <img src="img/main4-5.png" alt="스마일보라후드티">
+                            </div>
+                            <p>SMILE BONES HOODIE / PURPLE<br>
+                            ₩89,000 </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section class="s5">
+            <div class="box">
+                <h1><이벤트></h1>
+                <p>입점몰에서 구매하시고 더 많은 해택을 누려보세요</p>
+                <span>(행사 쿠폰 지급, 기간 11.01~11.30)</span>        
+                <div class="event">
+                    <div class="event1">
+                        <a href="#"><img src="img/main5.png" alt="W컨셉샵"></a>
+                    </div>
+                    <div class="event2">
+                        <a href="#"><img src="img/main5-2.png" alt="무신사"></a>
+                    </div>
+                 </div>            
+             </div>          
+        
+        </section>
+        <footer>
+            <div class="footer_box">
+                <div class="box">
+                    <div class="footer_list">
+                        <ul>
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">ABOUT</a></li>
+                            <li><a href="#">TERMS OF USE</a></li>
+                            <li><a href="#">PRIVACY POLICY</a></li>
+                            <li><a href="#">GUIDE</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_box">
+                <div class="box">
+                    <div class="footer_left">
+                        <h1>CUSTOMER CENTER <br>
+                            TEL : 070-4065-3100 OPEN : MON~FRI 11AM-05PM LUNCH : 12PM-1PM CLOSE : SAT, SUN, HOLIDAY <br>
+                            
+                            BANK ACCOUNT <br>
+                            국민은행 044201-04-217678 / holder : 류주남(퓨즈)</h1>
+                        <address>COMPANY INFO <br>
+                            COMPANY : FUSE CEO : 류주남 TEL : 070-4065-3100 FAX : ADDRESS : 01451 서울특별시 도봉구 쌍문동 724-20 401호 <br>
+                            BUSINESS LICENSE : 197-12-00699 MAIL-ORDER LICENSE : 제 2019-서울도봉-0510 호 [사업자정보확인] PERSONAL INFO MANAGER : FUSE <br>
+                            E-MAIL : fuse_official@naver.com <br>
+                            </address>
+                            <p>COPYRIGHT (C) 2017 FUSE. ALL RIGHTS RESERVED. Site by suhonstudio</p>
+                    </div>
+                    <div class="footer_right">
+                        <div class="sns">
+                            <ul>
+                                <li><a href="#"><img src="img/instagram.png" alt="인스타그램"></a></li>
+                                <li><a href="#"><img src="img/facebook.png" alt="페이스북"></a></li>
+                                <li><a href="#" class="f_logo"><img src="img/logo.png" alt="로고"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>               
+            </div>            
+        </footer>
+    </div>
+</body>
+</html>
+                             
+
+                
+                   
+                    
+                   
+             
+            
+                        
